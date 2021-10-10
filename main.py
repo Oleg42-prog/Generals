@@ -2,7 +2,7 @@ from math import floor
 from random import randint 
 from abc import ABC
 
-def boolString(x):
+def boolString(x):  # snake_case чаще используется в питоне
 	return  '\033[92m' + str(x) + '\033[0m' if x else '\033[91m' + str(x) + '\033[0m'
 
 def randomValue():
