@@ -142,3 +142,4 @@ else:
 consensus = consensus and (noneCount < n / 3)
 print('Practicaly consensus:', boolString(consensus))
 print('Theoreticaly consensus:', boolString(str(m < n / 3)))
+# end
